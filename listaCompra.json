@@ -1,0 +1,273 @@
+{
+    "listaCompra": {
+        "supermercado":[
+            {
+                "nombre": "Carrefour",
+                "direccion": {
+                    "direccion": "Av Jose Maria Alcaraz y Alenda",
+                    "numero": "s/n",
+                    "CP": "06011",
+                    "Localidad": "Badajoz",
+                    "Provincia": "Badajoz"
+                },
+                "geolocalizacion": {
+                    "latitud":"38.86705493734486", 
+                    "longitud": "-6.989119192503277"
+                },
+                "horarioHabitual":{
+                    "lunes": {
+                        "abierto":"true",
+                        "apertura":"09:00",
+                        "cierre":"22:00"
+                    },
+                    "martes":
+                    {
+                        "abierto":"true",
+                        "apertura":"09:00",
+                        "cierre":"22:00"
+                    },
+                    "miercoles":{
+                        "abierto":"true",
+                        "apertura":"09:00",
+                        "cierre":"22:00"
+                    },
+                    "jueves":{
+                        "abierto":"true",
+                        "apertura":"09:00",
+                        "cierre":"22:00"
+                    },
+                    "viernes":{
+                        "abierto":"true",
+                        "apertura":"09:00",
+                        "cierre":"22:00"
+                    },
+                    "sabado":{
+                        "abierto":"true",
+                        "apertura":"09:00",
+                        "cierre":"22:00"
+                    },
+                    "domingo":{
+                        "abierto":"false",
+                        "apertura":"-",
+                        "cierre":"-"
+                    }
+                },
+                "productos": {
+                    "enOferta":{
+                        "productoOferta":[
+                            {
+                                "producto":{
+                                    "denominacion": "Lubina Salvaje",
+                                    "departamento" : "Pescaderia",
+                                    "marca": "sin",
+                                    "precioUd": "25",
+                                    "uds": "0,400",
+                                    "udMedida": "kg",
+                                    "adquirido": "false"
+                                },
+                                "oferta": {
+                                    "descuento": "10%",
+                                    "vigencia":{
+                                        "fInicio": "01/04/2023",
+                                        "fFin": "15/04/2023"
+                                    }
+                                }
+                            },
+                            {
+                                "producto":{
+                                    "denominacion": "Mandarina",
+                                    "departamento" : "Fruteria",
+                                    "marca": "Carrefour",
+                                    "precioUd": "2,59",
+                                    "uds": "1",
+                                    "udMedida": "kg",
+                                    "adquirido": "true"
+                                },
+                                "oferta": {
+                                    "descuento": "15%",
+                                    "vigencia":{
+                                        "fInicio": "20/03/2023",
+                                        "fFin": "20/04/2023"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "habituales":{
+                        "producto": [
+                            {
+                                "denominacion": "Salmon",
+                                "departamento" : "Pescaderia",
+                                "marca": "sin",
+                                "precioUd": "15,95",
+                                "uds": "0,350",
+                                "udMedida": "kg",
+                                "adquirido": "true"
+                            },
+                            {
+                                "denominacion": "Patatas Fritas",
+                                "departamento" : "Aperitivos",
+                                "marca": "Lays",
+                                "precioUd": "2,45",
+                                "uds": "1",
+                                "udMedida": "ud",
+                                "adquirido": "true"
+                            },
+                            {
+                                "denominacion": "Gazpacho Fresco 250ml",
+                                "departamento" : "Preparados",
+                                "marca": "Garcia Millan",
+                                "precioUd": "1,50",
+                                "uds": "1",
+                                "udMedida": "ud",
+                                "adquirido": "false"
+                            }
+                        ]
+                    }   
+                }
+            },
+            {
+                "nombre": "Mercadona",
+                "direccion": {
+                    "direccion": "Av. del Guadiana",
+                    "numero": "4",
+                    "CP": "06011",
+                    "Localidad": "Badajoz",
+                    "Provincia": "Badajoz"
+                },
+                "geolocalizacion": {
+                    "latitud":"38.87147588599697", 
+                    "longitud": "-6.9859334640683635"
+                },
+                "horarioHabitual":{
+                    "lunes":{
+                        "abierto":"true",
+                        "apertura":"09:00",
+                        "cierre":"21:30"
+                    },
+                    "martes":{
+                        "abierto":"true",
+                        "apertura":"09:00",
+                        "cierre":"21:30"
+                    },
+                    "miercoles":{
+                        "abierto":"true",
+                        "apertura":"09:00",
+                        "cierre":"21:30"
+                    },
+                    "jueves":{
+                        "abierto":"true",
+                        "apertura":"09:00",
+                        "cierre":"21:30"
+                    },
+                    "viernes":{
+                        "abierto":"true",
+                        "apertura":"09:00",
+                        "cierre":"21:30"
+                    },
+                    "sabado":{
+                        "abierto":"true",
+                        "apertura":"09:00",
+                        "cierre":"21:30"
+                    },
+                    "domingo":{
+                        "abierto":"false",
+                        "apertura":"-",
+                        "cierre":"-"
+                    }
+                },
+                "productos": {
+                    "enOferta":{
+                        "productoOferta":[
+                            {
+                                "producto":{
+                                    "denominacion": "Jamon Cocido",
+                                    "departamento" : "Charcuteria",
+                                    "marca": "Hacendado",
+                                    "precioUd": "11,45",
+                                    "uds": "0,350",
+                                    "udMedida": "kg",
+                                    "adquirido": "false"
+                                },
+                                "oferta": {
+                                    "descuento": "30%",
+                                    "vigencia":{
+                                        "fInicio": "15/05/2023",
+                                        "fFin": "20/05/2023"
+                                    }
+                                }
+                            },
+                            {
+                                "producto":{
+                                    "denominacion": "Queso Fresco 0%",
+                                    "departamento" : "Charcuteria",
+                                    "marca": "Barquero",
+                                    "precioUd": "2,50",
+                                    "uds": "1",
+                                    "udMedida": "ud",
+                                    "adquirido": "true"
+                                },
+                                "oferta": {
+                                    "descuento": "50%",
+                                    "vigencia":{
+                                        "fInicio": "04/04/2023",
+                                        "fFin": "06/04/2023"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "habituales":{
+                        "producto": [
+                            {
+                                "denominacion": "Costillas de Cerdo",
+                                "departamento" : "Carniceria",
+                                "marca": "sin",
+                                "precioUd": "7,76",
+                                "uds": "1,500",
+                                "udMedida": "kg",
+                                "adquirido": "true"
+                            },
+                            {
+                                "denominacion": "Fresón",
+                                "departamento" : "Fruteria",
+                                "marca": "sin",
+                                "precioUd": "4,49",
+                                "uds": "0,500",
+                                "udMedida": "kg",
+                                "adquirido": "true"
+                            },
+                            {
+                                "denominacion": "Jabon de Manos Avena",
+                                "departamento" : "Cosmetica",
+                                "marca": "Nivea",
+                                "precioUd": "2,10",
+                                "uds": "1",
+                                "udMedida": "ud",
+                                "adquirido": "false"
+                            },
+                            {
+                                "denominacion": "Pasta de Dientes Blanqueante",
+                                "departamento" : "Cosmetica",
+                                "marca": "Colgate",
+                                "precioUd": "2,46",
+                                "uds": "1",
+                                "udMedida": "ud",
+                                "adquirido": "false"
+                            },
+                            {
+                                "denominacion": "Friega Suelos con Amoniaco",
+                                "departamento" : "Drogueria",
+                                "marca": "Bosque Verde",
+                                "precioUd": "3,28",
+                                "uds": "1",
+                                "udMedida": "ud",
+                                "adquirido": "false"
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}
