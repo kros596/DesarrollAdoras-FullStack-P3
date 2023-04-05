@@ -1,4 +1,4 @@
-<h1>Práctica 3 Desarrollo Full-Stack (Nivel 3) ED.2022</h1>
+<h1>Práctica 3: JSON - Desarrollo Full-Stack (Nivel 3) ED.2022</h1>
 <p>
   En esta práctica se pedía elaborar una lista de la compra con los diferentes supermercados, con sus datos, 
   y los productos en dos categorías: productos en oferta y productos habituales. Los productos debían incorporar ciertos atributos
